@@ -9590,7 +9590,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-    color: #fff !important
+    color: #fff;
 }
 
 .text-primary {
@@ -9850,6 +9850,11 @@ h6 {
     border-color: #fff
 }
 
+.theme-btn-on-gig-green-bg {
+    color: #43d790 !important;
+    border-color: #43d790
+}
+
 .theme-btn-on-bg:hover {
     background: #fff;
     color: #47b0df !important
@@ -9908,7 +9913,12 @@ a.link-on-bg:hover {
 }
 
 .theme-bg-secondary {
-    background-color: #43d790
+    background-color: #43d790;
+}
+
+.theme-bg-gleam {
+    background-color: #000;
+    color: #43d790;
 }
 
 .single-col-max-width {
@@ -10200,7 +10210,7 @@ a.link-on-bg:hover {
     }
     .hero-section .figure-holder {
         padding-bottom: 400px;
-        background-position: center 400px;
+        background-position: center 300px;
         background-size: 300px auto
     }
 }
@@ -10218,7 +10228,7 @@ a.link-on-bg:hover {
     }
     .hero-section .figure-holder {
         padding-bottom: 400px;
-        background-position: center 420px;
+        background-position: center 280px;
         background-size: 300px auto
     }
     .logos-row {
